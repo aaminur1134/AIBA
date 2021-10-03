@@ -1,0 +1,53 @@
+body{
+    background-color:azure;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+span{
+    color: gold;
+}
+.navbar-brand{
+    font-family: monospace;
+    font-size: 34px;
+}
+.header{
+    height: 80px;
+}
+.nav-item{
+    color: blueviolet !important;
+}
+#transation-area{
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+.updated{
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: darkolivegreen;
+}
+.withdraw{
+    background-color:blueviolet;
+}
+.balance{
+    background-color: dimgrey;
+}
+.box-area{
+    margin: 50px;
+    padding: 20px;
+    box-shadow:5px 5px 10px dimgrey;
+    border-radius: 10px;
+}
+.box-size{
+    padding-top: 20px;
+}
