@@ -5,16 +5,13 @@ const  loginArea = document.getElementById("login-area");
 const transactionArea = document.getElementById("transation-area");
          transactionArea.style.display = "block";
     });
-    
- 
+
 // deposit button action
     const depositBtn = document.getElementById('depositAdd');
     depositBtn.addEventListener('click',function(){
 //     const depositAmount = document.getElementById("depositAmount").value;
 //     const depositNum = parseFloat(depositAmount);
         const depositNum = getInputNum("depositAmount");
-
-
 
         // current deposit 
 //     const currentDeposit = document.getElementById('currentDeposit').innerText;
@@ -46,15 +43,14 @@ updateSpan("currentBalance", -1* withdrawNum);
 document.getElementById("withdrawAmount").value = "";
 
 })
+        // use funtion 
 function getInputNum(id){
         const amount = document.getElementById(id).value;
         const amountNum = parseFloat(amount);
         return amountNum ;
 
 }
-
-
-
+        // use funtion 
 function updateSpan(id, depositNum){
         const current = document.getElementById(id).innerText;
         const currentNum = parseFloat(current);
